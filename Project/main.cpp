@@ -32,14 +32,14 @@ SmallIcons::SmallIcons() {
 	// Box Player
 	WriteMemory<void*>(reinterpret_cast<void*>(0x584192), &playersSizeX); // PlayerBoxX
 	WriteMemory<void*>(reinterpret_cast<void*>(0x5841B2), &playersSizeY); // PlayerBoxY
-	WriteMemory<void*>(reinterpret_cast<void*>(0x58410D), &borderX); // PlayerBoxBorderY
-	WriteMemory<void*>(reinterpret_cast<void*>(0x58412D), &borderY); // PlayerBoxBorderX
+	WriteMemory<void*>(reinterpret_cast<void*>(0x58410D), &borderX); // PlayerBoxBorderX
+	WriteMemory<void*>(reinterpret_cast<void*>(0x58412D), &borderY); // PlayerBoxBorderY
 
 	// Down Triangle
 	WriteMemory<void*>(reinterpret_cast<void*>(0x5842E8), &playersSizeX); // DownTriangleX
 	WriteMemory<void*>(reinterpret_cast<void*>(0x5842C8), &playersSizeY); // DownTriangleY
-	WriteMemory<void*>(reinterpret_cast<void*>(0x58424B), &borderX); // DownTriangleBorderY
-	WriteMemory<void*>(reinterpret_cast<void*>(0x584209), &borderY); // DownTrianglexBorderX
+	WriteMemory<void*>(reinterpret_cast<void*>(0x58424B), &borderX); // DownTriangleBorderX
+	WriteMemory<void*>(reinterpret_cast<void*>(0x584209), &borderY); // DownTrianglexBorderY
 
 	// Up Triangle
 	WriteMemory<void*>(reinterpret_cast<void*>(0x584436), &playersSizeX); // UpTriangleX
